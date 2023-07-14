@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AndroidScreenMirror (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "AndroidScreenMirror (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
