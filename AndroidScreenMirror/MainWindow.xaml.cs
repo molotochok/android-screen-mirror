@@ -2,8 +2,11 @@ using Microsoft.UI.Windowing;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Media;
 using System;
+using System.IO;
+using Windows.ApplicationModel;
 using Windows.Graphics;
 using Windows.UI;
+using Windows.UI.WindowManagement;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -58,6 +61,7 @@ namespace AndroidScreenMirror
         private void ConfigureWindow()
         {
             AppWindow.Resize(new SizeInt32(950, 500));
+            AppWindow.SetIcon(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Assets/Logo.ico"));
 
             var presenter = AppWindow.Presenter as OverlappedPresenter;
             presenter.IsResizable = false;
