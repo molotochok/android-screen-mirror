@@ -38,7 +38,7 @@
             Padding="8"
             CornerRadius="5"
         >
-            <RichTextBlock TextWrapping="WrapWholeWords" CharacterSpacing="5">
+            <RichTextBlock TextWrapping="WrapWholeWords" CharacterSpacing="5" IsTextSelectionEnabled="True">
                 <Paragraph Margin="0 0 0 7">
                     1. The Android device requires at least API 21 (Android 5.0).
                 </Paragraph>
@@ -71,7 +71,12 @@
             Padding="8"
             CornerRadius="5"
         >
-            <TextBlock x:Name="statusTextBlock" Text="Screen mirror is off." />
+            <TextBlock 
+                x:Name="statusTextBlock" 
+                Text="Screen mirror is off." 
+                TextWrapping="WrapWholeWords" 
+                IsTextSelectionEnabled="True"
+            />
         </StackPanel>
 
         <Button 
