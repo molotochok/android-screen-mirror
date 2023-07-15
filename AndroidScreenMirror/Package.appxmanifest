@@ -8,15 +8,15 @@
   IgnorableNamespaces="uap rescap">
 
   <Identity
-    Name="fa6d57dd-e112-4353-ad58-18190f1cbd8e"
-    Publisher="CN=Markiian"
-    Version="1.0.0.0" />
+    Name="14620MolotochokTechnologi.AndroidScreenMirror"
+    Publisher="CN=486DE52A-54F1-4338-B5F8-0ACB52AE533B"
+    Version="1.0.1.0" />
 
-  <mp:PhoneIdentity PhoneProductId="fa6d57dd-e112-4353-ad58-18190f1cbd8e" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="fac20dd0-f9ee-4b0c-acc8-689cef32bc7a" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>AndroidScreenMirror</DisplayName>
-    <PublisherDisplayName>Markiian</PublisherDisplayName>
+    <DisplayName>Android Screen Mirror</DisplayName>
+    <PublisherDisplayName>Molotochok Technologies</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -34,12 +34,12 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
-        DisplayName="AndroidScreenMirror"
-        Description="AndroidScreenMirror"
+        DisplayName="Android Screen Mirror"
+        Description="This application makes it easy to display the screen of the connected Android device on the Windows PC"
         BackgroundColor="transparent"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"  Square71x71Logo="Assets\SmallTile.png" Square310x310Logo="Assets\LargeTile.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
     </Application>
