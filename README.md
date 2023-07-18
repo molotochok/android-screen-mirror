@@ -20,4 +20,4 @@ The screen mirroring is in progress:
 
 ## Usage
 The application can be cloned as it is in this repo.
-Also, it is deployed to Microsoft Store and you can download it [here]().
+Also, it is deployed to Microsoft Store and you can download it [here]( https://www.microsoft.com/store/apps/9MW4W7QXDWKR).
