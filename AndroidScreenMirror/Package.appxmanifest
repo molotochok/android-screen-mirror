@@ -10,7 +10,7 @@
   <Identity
     Name="14620MolotochokTechnologi.AndroidScreenMirror"
     Publisher="CN=486DE52A-54F1-4338-B5F8-0ACB52AE533B"
-    Version="1.0.3.0" />
+    Version="1.0.4.0" />
 
   <mp:PhoneIdentity PhoneProductId="fac20dd0-f9ee-4b0c-acc8-689cef32bc7a" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
