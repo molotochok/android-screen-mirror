@@ -11,6 +11,15 @@
                 <!-- Other merged dictionaries here -->
             </ResourceDictionary.MergedDictionaries>
             <!-- Other app resources here -->
+            
+            <!-- Hyperlink -->
+            <SolidColorBrush x:Key="HyperlinkForeground" Color="#3f9be0"/>
+            <SolidColorBrush x:Key="HyperlinkForegroundPointerOver" Color="#2b6d9e"/>
+
+            <!-- Button -->
+            <SolidColorBrush x:Key="ButtonBackground" Color="#55ad64"/>
+            <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="#489455"/>
+            <SolidColorBrush x:Key="ButtonBackgroundPressed" Color="#33693c"/>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

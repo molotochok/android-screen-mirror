@@ -31,6 +31,7 @@
             Text="Instructions" 
             FontSize="20"
             FontWeight="Bold"
+            Foreground="White"
         />
         <StackPanel 
             Grid.Row="1" Grid.Column="0" 
@@ -38,7 +39,12 @@
             Padding="8"
             CornerRadius="5"
         >
-            <RichTextBlock TextWrapping="WrapWholeWords" CharacterSpacing="5" IsTextSelectionEnabled="True">
+            <RichTextBlock 
+                TextWrapping="WrapWholeWords" 
+                CharacterSpacing="5" 
+                IsTextSelectionEnabled="True" 
+                Foreground="White"
+            >
                 <Paragraph Margin="0 0 0 7">
                     1. The Android device requires at least API 21 (Android 5.0).
                 </Paragraph>
@@ -64,6 +70,7 @@
             Text="Status" 
             FontSize="20"
             FontWeight="Bold"
+            Foreground="White"
         />
         <StackPanel 
             Grid.Row="1" Grid.Column="1" 
@@ -76,6 +83,7 @@
                 Text="Screen mirror is off." 
                 TextWrapping="WrapWholeWords" 
                 IsTextSelectionEnabled="True"
+                Foreground="White"
             />
         </StackPanel>
 
@@ -85,7 +93,6 @@
             Grid.ColumnSpan="2"
             x:Name="mirrorBtn" 
             Click="MirrorBtn_Click"
-            Background="#55ad64"
             HorizontalAlignment="Stretch"
             IsEnabled="True"
         >
