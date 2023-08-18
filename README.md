@@ -1,6 +1,6 @@
 # Android Screen Mirror
 <p align="center">
-  <img width="300" height="300" src="https://github.com/molotochok/android-screen-mirror/assets/22146812/197468c4-42a4-4f70-8347-30438ac99fe5">
+  <img width="300" height="300" src="https://github.com/molotochok/android-screen-mirror/assets/22146812/55c517ce-48a5-4812-aa7c-fc8089dfdef8">
 </p>
 
 ## Description
@@ -13,11 +13,11 @@ When the user clicks on the button to mirror the screen the `scrcpy` process is 
 
 ## Examples
 The initial screen state:
-![Initial screen state](https://github.com/molotochok/android-screen-mirror/assets/22146812/bcb3bfaa-df34-4f15-814d-135ea03951aa)
+![Initial screen state](https://github.com/molotochok/android-screen-mirror/assets/22146812/eeeec763-4699-4a4e-8161-868c2dcc55d1)
+
 
 The screen mirroring is in progress:
-![Screen mirror in progress](https://github.com/molotochok/android-screen-mirror/assets/22146812/74d4c1c5-2022-4c6e-becb-d92e8f73a834)
-
+![Screen mirror in progress](https://github.com/molotochok/android-screen-mirror/assets/22146812/55ba4bad-6a71-4fe3-885a-832ab4e1c845)
 ## Usage
 The application can be cloned as it is in this repo.
 Also, it is deployed to Microsoft Store and you can download it [here]( https://www.microsoft.com/store/apps/9MW4W7QXDWKR).
